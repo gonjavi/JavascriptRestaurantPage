@@ -1,18 +1,33 @@
 export default function myFooter(){
   const myfooter = document.createElement('footer');
-  const myUl1 = document.createElement('ul');
-
-  const footItems = ['Home', 'Menu', 'Restaurants', 'Contact Us'];
   
-  for (let footitem of footItems){
-    let listItem = document.createElement('li');
-    listItem.textContent= footitem;
-
-    myUl1.appendChild(listItem);
-  }
+  myfooter.className = 'grey darken-1 page-footer';
   
-  myfooter.appendChild(myUl1);
+  myfooter.innerHTML = `
+  <div class="container">
+  <div class="row">
+    <div class="col l6 s12">
+      <h5 class="white-text">Restaurant le Jour</h5>
+      <p class="grey-text text-lighten-4">This is the first restaurant in town where you can eat different type of meats, commercial and not commercial. We have variety of dishes prepare with  fresh food.</p>
+    </div>
+    <div class="col l4 offset-l2 s12">
+      <h5 class="white-text">Go to</h5>
+      <ul>
+        <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+        <li><a class="grey-text text-lighten-3" href="#!">Menu</a></li>
+        <li><a class="grey-text text-lighten-3" href="#!">Restaurants</a></li>
+        <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="footer-copyright">
+  <div class="container">
+  © 2020 Copyright Gonzalo J. Mancilla
+</div>
+</div>`;
 
+ 
   return myfooter;
      
 }
