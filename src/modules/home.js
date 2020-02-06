@@ -20,7 +20,7 @@ export default function home(){
 
   const divtext = document.createElement('div');
   
-  p2.textContent = 'This is the first restaurant in town where you can eat different type of meats, commercial and not commercial. We have variety of dishes prepare with  fresh food that you can enjoy it';
+  p2.textContent = 'This is the first restaurant in town where you can eat different type of meats. We have variety of dishes prepare with  fresh food that you can enjoy it';
   divtext.append(p2);
 
   mySection.appendChild(title);

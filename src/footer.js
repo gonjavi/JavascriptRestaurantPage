@@ -8,15 +8,15 @@ export default function myFooter(){
   <div class="row">
     <div class="col l6 s12">
       <h5 class="white-text">Restaurant le Jour</h5>
-      <p class="grey-text text-lighten-4">This is the first restaurant in town where you can eat different type of meats, commercial and not commercial. We have variety of dishes prepare with  fresh food.</p>
+      <p class="grey-text text-lighten-4">This is the first restaurant in town where you can eat different type of meats. We have variety of dishes prepare with  fresh food.</p>
     </div>
     <div class="col l4 offset-l2 s12">
       <h5 class="white-text">Go to</h5>
       <ul>
-        <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Menu</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Restaurants</a></li>
-        <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+        <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+        <li><a class="grey-text text-lighten-3" href="#menu">Menu</a></li>
+        <li><a class="grey-text text-lighten-3" href="#restaurants">Restaurants</a></li>
+        <li><a class="grey-text text-lighten-3" href="#contact">Contact Us</a></li>
       </ul>
     </div>
   </div>

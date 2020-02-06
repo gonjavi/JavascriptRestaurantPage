@@ -7,7 +7,7 @@ export default function navBar() {
 
   myNav.innerHTML = `
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo center">Restaurant le Jour</a>
+    <a href="#" class="brand-logo center">Restaurant Le Jour</a>
   </div>
   <div class="row">
     <div class="col s12">
