@@ -2,6 +2,7 @@ import navBar from './navbar.js';
 import mainSection from './mainSection.js';
 import myFooter from './footer.js';
 
+
 function component() {
   var myContent = document.getElementById('content');
     
@@ -9,6 +10,7 @@ function component() {
   myContent.appendChild(mainSection());
   myContent.appendChild(myFooter());
 
+  
   return myContent;
 }
   

@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 export default function navBar() {
   const myNav = document.createElement('nav');
  
@@ -5,15 +7,20 @@ export default function navBar() {
 
   myNav.innerHTML = `
   <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Restaurant le Jour</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">Restaurants</a></li>
-      <li><a href="#">Contac Us</a></li>
-    </ul>
-  </div>`;
+    <a href="#" class="brand-logo center">Restaurant le Jour</a>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="teal lighten-3 tab col s3"><a class="white-text" id="home">Home</a></li>
+        <li class="teal lighten-3 tab col s3"><a class="white-text" href="#menu" id="menu">Menu</a></li>
+        <li class="teal lighten-3 tab col s3"><a class="white-text" href="#restaurants" id="restaurants">Restaurants</a></li>
+        <li class="teal lighten-3 tab col s3"><a class="white-text" href="#contact" id="contact">Contact</a></li>
+      
+      </ul>
+    </div>`;
 
+ 
   return myNav;
   
 }
