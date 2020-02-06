@@ -1,8 +1,5 @@
-import $ from "jquery";
-
 export default function navBar() {
   const myNav = document.createElement('nav');
- 
   myNav.className = 'teal lighten-3';
 
   myNav.innerHTML = `
@@ -16,11 +13,7 @@ export default function navBar() {
         <li class="teal lighten-3 tab col s3"><a class="white-text" href="#menu" id="menu">Menu</a></li>
         <li class="teal lighten-3 tab col s3"><a class="white-text" href="#restaurants" id="restaurants">Restaurants</a></li>
         <li class="teal lighten-3 tab col s3"><a class="white-text" href="#contact" id="contact">Contact</a></li>
-      
       </ul>
     </div>`;
-
- 
   return myNav;
-  
 }

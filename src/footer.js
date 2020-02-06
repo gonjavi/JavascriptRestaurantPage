@@ -1,8 +1,6 @@
-export default function myFooter(){
+export default function myFooter() {
   const myfooter = document.createElement('footer');
-  
   myfooter.className = 'grey darken-1 page-footer';
-  
   myfooter.innerHTML = `
   <div class="container">
   <div class="row">
@@ -26,8 +24,5 @@ export default function myFooter(){
   © 2020 Copyright Gonzalo J. Mancilla
 </div>
 </div>`;
-
- 
   return myfooter;
-     
 }
