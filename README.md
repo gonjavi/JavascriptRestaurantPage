@@ -1,6 +1,6 @@
 # Javascript Restaurant Page
 
-This is a restaurant page website based on javascript, this project comes after the introduction of the ES6 class keyword, ES6 modules, and webpack. We only use JavaScript to generate the entire content of the website
+This is a restaurant page website based on javascript, this project comes after the introduction of the ES6 class keyword, ES6 modules, and webpack. We only use JavaScript to generate the entire content of the website, which is comṕosed by home, menu, restaurants and contact page.
 
 ![](resto.png)
 
