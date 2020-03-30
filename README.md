@@ -16,8 +16,8 @@ This is a restaurant page website built with JavaScript, ES6 class keywords, ES6
 
 👤 **Gonza Javier Mancilla**
 
-- Github: [@github/gonjavi](https://github.com/gonjavi)
-- Linkedin: [linkedin](https://www.linkedin.com/in/g-javier-mancilla-a686a9178/)
+- Github: [@gonjavi](https://github.com/gonjavi)
+- Linkedin: [@g-javier-mancilla](https://www.linkedin.com/in/g-mancillla)
 
 ## Live Demo
 
