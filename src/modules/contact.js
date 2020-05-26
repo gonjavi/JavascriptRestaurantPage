@@ -10,6 +10,12 @@ export default function contact() {
         <h5>Tel: +59415533226 </h5>
         <h5>Email: restaurant@gmail.com </h5>
     </div>
+    <div class="col s12">
+      <h5>Address: 784 Simon Bolivar Avenue</h5>
+        <h5>Tel: +59415533226 </h5>
+        <h5>Email: restaurant@gmail.com </h5>
+    </div>
+    <br><br><br><br><br>
   </div>`;
 
   return info;
