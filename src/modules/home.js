@@ -10,7 +10,7 @@ export default function home() {
 
   const divpicture = document.createElement('div');
   divpicture.className = 'center-align';
-  img.src = 'https://live.staticflickr.com/6221/6238842499_5404343729_b.jpg';
+  img.src = 'https://raw.githubusercontent.com/gonjavi/JavascriptRestaurantPage/master/src/resto.jpg';
   img.width = '500';
   p1.appendChild(img);
   divpicture.appendChild(p1);
