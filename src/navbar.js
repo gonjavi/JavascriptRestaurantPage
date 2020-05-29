@@ -3,8 +3,8 @@ export default function navBar() {
   myNav.className = 'teal lighten-3';
 
   myNav.innerHTML = `
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo center">Restaurant Le Jour</a>
+  <div class="nav-wrapper col s12">
+    <a href="#" class="brand-logo center col s12 ">Restaurant Le Jour</a>
   </div>
   <div class="row">
     <div class="col s12">

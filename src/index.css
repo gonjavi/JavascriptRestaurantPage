@@ -11,6 +11,10 @@ body {
   img {
    width: 300px;;
   }
-
-  
+  a.brand-logo {
+    font-size: 20px;
+  }
+  .title2 {
+    font-size: 20px;
+  }
 }

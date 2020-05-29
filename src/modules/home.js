@@ -5,7 +5,7 @@ export default function home() {
   const p2 = document.createElement('p');
   const title = document.createElement('h1');
   title.textContent = 'Restaurant Le Jour';
-  title.className = 'center-align';
+  title.className = 'center-align title2';
   mySection.id = 'home';
 
   const divpicture = document.createElement('div');
