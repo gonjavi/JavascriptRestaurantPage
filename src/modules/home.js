@@ -12,6 +12,7 @@ export default function home() {
   divpicture.className = 'center-align';
   img.src = 'https://raw.githubusercontent.com/gonjavi/JavascriptRestaurantPage/master/src/resto.jpg';
   img.width = '500';
+  img.className = 'col s-4 offset -2'
   p1.appendChild(img);
   divpicture.appendChild(p1);
 

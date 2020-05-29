@@ -5,3 +5,12 @@ body {
   min-height: 100%;
   background-position: bottom;
 }
+
+@media only screen and (max-width: 576px) {
+
+  img {
+   width: 300px;;
+  }
+
+  
+}
