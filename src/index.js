@@ -1,6 +1,7 @@
 import navBar from './navbar';
 import mainSection from './mainSection';
 import myFooter from './footer';
+import './index.css';
 
 function component() {
   const myContent = document.getElementById('content');
